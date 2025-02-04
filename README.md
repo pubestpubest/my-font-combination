@@ -2,6 +2,8 @@
 
 This website represents a minimal website with 3 fonts: Roboto, Times New Roman, and JetBrains Mono.
 
+https://pubestpubest.github.io/my-font-combination/
+
 ## Features
 
 - Basic HTML structure with a header, main content, and footer
