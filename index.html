@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minimal Typography Website</title>
+    <link rel="icon" type="image/png" href="public/images/floppa.png">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -11,19 +12,26 @@
     <header>
         <h1>Minimal Typography Website</h1>
     </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="active">Typography</a></li>
+            <li><a href="info.html">Information</a></li>
+        </ul>
+    </nav>
     <main>
         <section>
-            <h2>Roboto</h2>
+            <h2 class="roboto-bold">Roboto</h2>
             <p class="roboto-regular">This is Roboto regular.</p>
             <p class="roboto-bold">This is Roboto bold.</p>
         </section>
         <section>
-            <h2>Times New Roman</h2>
+            <h2 class="times-bold">Times New Roman</h2>
             <p class="times-regular">This is Times New Roman regular.</p>
             <p class="times-bold">This is Times New Roman bold.</p>
+
         </section>
         <section>
-            <h2>JetBrains Mono</h2>
+            <h2 class="jetbrains-bold">JetBrains Mono</h2>
             <p class="jetbrains-regular">This is JetBrains Mono regular.</p>
             <p class="jetbrains-bold">This is JetBrains Mono bold.</p>
         </section>
